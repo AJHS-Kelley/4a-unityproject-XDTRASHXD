@@ -13,5 +13,9 @@ class Program
         Console.WriteLine("My Float Variable is " + myFloat);
         Console.WriteLine("My Bool Variable is " + myBool);
         Console.WriteLine("My String Variable is " + myString);
+
+        for (int i = 0; i <= 20; i++) {
+            Console.WriteLine("I ate " + i + " slices of pizza for lunch.\n");
+        }
     }
 }
